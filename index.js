@@ -8,6 +8,7 @@ const mongoose = require('mongoose');
 const keys = require('./config/keys');
 const MongoStore = require('connect-mongo');
 const connectDB = require('./db/connect');
+require('dotenv').config()
 
 
 //initiate express server
